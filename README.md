@@ -18,53 +18,38 @@ CREATE TABLE Freelancer (
 ## Features
 
 - **RESTful Endpoints:** Designed with a RESTful architecture to support common HTTP methods (GET, POST, PUT, DELETE).
+- ![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/582d8fa0-730c-4d37-8f4d-073c304d74ba)
+
 
 ## API Endpoints
 
 The following are the main endpoints provided by the API:
 
 ### GET https://localhost:7124/api/v1/freelancers
-![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/a28366fe-cee3-407d-9620-1123fca68b4f)
-
-
 
 This endpoint return all the list of freelancers information
+![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/a28366fe-cee3-407d-9620-1123fca68b4f)
 
-### POST /api/resource
+### GET https://localhost:7124/api/v1/freelancers/{id}
 
-[Describe the purpose of this endpoint and provide information on how to create new resources.]
+This endpoint get single detail for freelancer
+![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/0c281fc7-fdc1-4dda-92c4-d913d223720c)
 
-### PUT /api/resource/{id}
+### POST  https://localhost:7124/api/v1/freelancers
 
-[Explain the functionality of the PUT endpoint, which is used to update existing resources.]
+This endpoint is to create new record for freelancer
+![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/fe003570-7a38-47c3-adc6-4f97171cf786)
 
-### DELETE /api/resource/{id}
 
-[Detail the DELETE endpoint's purpose, which is responsible for deleting resources.]
+### PUT  https://localhost:7124/api/v1/freelancers/{id}
 
-## Getting Started
+This endpoint is modify the attributes of the resource based on the provided data in the request payload.
+![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/c7b5ff55-8a4c-4d68-a8c5-2cc17174d466)
 
-To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project folder: `cd your-repo`
-3. [Optional: Add any specific setup instructions if needed.]
-4. Run the application: `dotnet run`
+### DELETE https://localhost:7124/api/v1/freelancers/{id}
 
-## Sample Requests and Responses
+This endpoint is to delete a record
+![image](https://github.com/NabilahHadi/Freelancer.WebAPI/assets/153887785/ddcc3b41-98a9-4b8c-91ff-201d25c8a9bd)
 
-Here are examples of sample requests and responses for each endpoint. Use these as a reference when interacting with the API.
 
-[Provide sample requests and responses for GET, POST, PUT, DELETE endpoints.]
-
-## Running Tests
-
-[Optional: If you have included tests for your API, provide instructions on how to run them.]
-
-## Contributing
-
-We welcome contributions! If you would like to contribute to the project, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
